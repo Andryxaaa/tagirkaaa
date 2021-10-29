@@ -1,0 +1,366 @@
+body {
+  margin: 0;
+  background: #ffffff;
+  display: flex;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.content {
+  background: #ffffff;
+  height: inherit;
+  margin: 25px auto;
+  padding: 10px;
+  width: var(--layout-width);
+  height: var(--header-height);
+  --layout-width: 95%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-shadow: 0px 1px 10px 5px #1b739162;
+  border-radius: 30px;
+}
+
+.content .zitel {
+  display: flex;
+  margin: 15px;
+  width: 95%;
+  height: auto;
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: #1046589d 0px 0px 12px 0px inset, #ffffff 0px 0px 12px 0px inset;
+  -webkit-box-shadow: #1b739162 0px 0px 12px 0px inset,
+    #ffffff 0px 0px 12px 0px inset;
+  border-radius: 40px;
+  -webkit-border-radius: 40px;
+  -webkit-transition-duration: 0.2s;
+  -o-transition-duration: 0.2s;
+  transition-duration: 0.2s;
+  -webkit-transition-property: transform;
+  -webkit-transition-property: -webkit-transform;
+  transition-property: -webkit-transform;
+  -o-transition-property: transform;
+  transition-property: transform;
+  transition-property: transform, -webkit-transform;
+  font-weight: 600;
+  -webkit-transition: 0.2s linear;
+  -o-transition: 0.2s linear;
+  transition: 0.2s linear;
+}
+
+.content .zitel:hover {
+  -webkit-transform: scale(1.01);
+  -ms-transform: scale(1.01);
+  transform: scale(1.01);
+}
+
+.zitel .block_ava {
+  display: flex;
+  align-items: start;
+  justify-content: start;
+  width: auto;
+  height: auto;
+}
+
+.block_ava .avatarka {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  justify-content: center;
+  width: auto;
+  height: 200px;
+  border-radius: 20px;
+}
+
+.zitel .block_status {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  width: auto;
+  height: auto;
+}
+
+.block_status .nickname {
+  display: flex;
+  align-items: start;
+  flex-direction: column;
+  width: 97%;
+  font-weight: 500;
+  height: auto;
+  margin-left: 20px;
+}
+
+.nickname .h {
+  font-weight: 700;
+  font-size: 50px;
+  color: #131313;
+  text-shadow: 0px 2px 2px #0000003d;
+}
+
+.nickname .vopros {
+  font-weight: 800;
+  width: 90%;
+  margin-top: 15px;
+  font-size: 20px;
+  color: #161616ea;
+}
+
+.nickname .o-sebe {
+  font-weight: 600;
+  width: 90%;
+  margin-top: 15px;
+  font-size: 20px;
+  color: #464646f6;
+}
+
+.content .Program-text {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin-left: 20px;
+  font-weight: 900;
+  margin-top: 10px;
+  font-size: 30px;
+  color: #161616f6;
+}
+
+.content .block {
+  display: flex;
+  margin: 15px;
+  width: 95%;
+  height: auto;
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: #1046589d 0px 0px 12px 0px inset, #ffffff 0px 0px 12px 0px inset;
+  -webkit-box-shadow: #1b739162 0px 0px 12px 0px inset,
+    #ffffff 0px 0px 12px 0px inset;
+  border-radius: 40px;
+  -webkit-border-radius: 40px;
+  -webkit-border-radius: 40px;
+  -webkit-transition-duration: 0.2s;
+  -o-transition-duration: 0.2s;
+  transition-duration: 0.2s;
+  -webkit-transition-property: transform;
+  -webkit-transition-property: -webkit-transform;
+  transition-property: -webkit-transform;
+  -o-transition-property: transform;
+  transition-property: transform;
+  transition-property: transform, -webkit-transform;
+  font-weight: 600;
+  -webkit-transition: 0.2s linear;
+  -o-transition: 0.2s linear;
+  transition: 0.2s linear;
+}
+
+.content .block:hover {
+  -webkit-transform: scale(1.01);
+  -ms-transform: scale(1.01);
+  transform: scale(1.01);
+}
+
+.block .vopros {
+  font-weight: 800;
+  width: 90%;
+  margin-top: 40px;
+  font-size: 25px;
+  color: #161616ea;
+}
+
+.block .o-sebe {
+  font-weight: 600;
+  width: 90%;
+  margin-top: 15px;
+  font-size: 20px;
+  padding-left: 40px;
+  color: #464646f6;
+}
+
+.content .div-img {
+  display: flex;
+  align-items: center;
+  width: 70%;
+  margin: 15px;
+  height: 100%;
+}
+.content .div-img img {
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+  align-items: center;
+  box-shadow: 0px 1px 5px 2px #1f83a5ad;
+  -webkit-transition-property: transform;
+  -webkit-transition-property: -webkit-transform;
+  transition-property: -webkit-transform;
+  -o-transition-property: transform;
+  transition-property: transform;
+  transition-property: transform, -webkit-transform;
+  font-weight: 600;
+  -webkit-transition: 0.2s linear;
+  -o-transition: 0.2s linear;
+  transition: 0.2s linear;
+}
+
+.content .div-img img:hover {
+  -webkit-transform: scale(1.01);
+  -ms-transform: scale(1.01);
+  transform: scale(1.01);
+}
+
+@media screen and (max-width: 1070px) {
+    .content .Program-text {
+        font-size: 25px;
+    }
+  .content {
+    background: #ffffff;
+    height: inherit;
+    margin: 25px auto;
+    padding: 10px;
+    width: var(--layout-width);
+    height: var(--header-height);
+    --layout-width: 90%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 0px 1px 10px 5px #1b739162;
+    border-radius: 30px;
+  }
+
+  .content .zitel {
+    flex-direction: column;
+    display: flex;
+    margin-top: 15px;
+    width: 93%;
+    height: auto;
+    padding: 0;
+    padding-top: 15px;
+    padding-bottom: 15px;
+  }
+
+  .zitel .block_ava {
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    width: auto;
+    height: auto;
+  }
+  
+  .block_status .nickname {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 97%;
+    font-weight: 500;
+    height: auto;
+  }
+
+  .block_ava .avatarka {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: auto;
+    height: 200px;
+    border-radius: 20px;
+  }
+
+  .content .block {
+    display: flex;
+    margin: 15px;
+    width: 93%;
+    height: auto;
+    padding: 0;
+    padding-top: 15px;
+    padding-bottom: 15px;
+
+  }
+  .content .div-img {
+    display: flex;
+    align-items: center;
+    width: 90%;
+    height: 90%;
+    border-radius: 10px;
+  }
+
+  .content .div-img img {
+    width: 100%;
+    height: 100%;
+  }
+}
+
+
+@media screen and (max-width: 940px) {
+    .content .Program-text {
+        font-size: 25px;
+    }
+    .content {
+      background: #ffffff;
+      height: inherit;
+      margin: 25px auto;
+      padding: 10px;
+      width: var(--layout-width);
+      height: var(--header-height);
+      --layout-width: 90%;
+      height: auto;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      box-shadow: 0px 1px 10px 5px #1b739162;
+      border-radius: 30px;
+    }
+  
+    .content .zitel {
+        flex-direction: column;
+        display: flex;
+        margin-top: 15px;
+        width: 90%;
+        height: auto;
+      }
+    
+      .zitel .block_ava {
+        display: flex;
+        align-items: start;
+        justify-content: center;
+        width: auto;
+        height: auto;
+      }
+      
+      .block_status .nickname {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        width: 97%;
+        font-weight: 500;
+        height: auto;
+      }
+    
+      .block_ava .avatarka {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    
+        width: auto;
+        height: 200px;
+        border-radius: 20px;
+      }
+
+      .content .block {
+        display: flex;
+        margin: 15px;
+        width: 90%;
+        height: auto;
+      }
+    
+    .content .div-img {
+      display: flex;
+      align-items: center;
+      width: 90%;
+      height: 90%;
+      border-radius: 10px;
+    }
+  
+    .content .div-img img {
+      width: 100%;
+      height: 100%;
+    }
+  }
